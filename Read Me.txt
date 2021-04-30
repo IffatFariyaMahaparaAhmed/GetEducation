@@ -1,0 +1,26 @@
+
+				---------------Well come to GetEducation System------------
+
+					step 1 : create databse "get_education"
+
+					step 2 : import sql file into database from php folder.
+				
+
+			=================Now Your System is Ready to Use============
+
+					    for Admin 
+
+					admin : admin@gmail.com
+					pass  : admin
+
+			======================== for Tutor==========================
+
+					Email: m@gmail.com
+					pass: 123
+
+
+			======================== for Users/ Studnet==========================
+
+					Email: mehedi@gmail.com
+					pass: mehedi
+ 

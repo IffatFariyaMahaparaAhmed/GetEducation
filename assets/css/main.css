@@ -1,0 +1,185 @@
+#main_nav ul li{
+    text-align: center;
+}
+#main_nav ul li a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+#drop a:hover{
+    color: white;
+    background-color: #343A40;
+}
+
+.slider{
+    background-image: url("../../images/banner-bg.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.slide_section{
+    height: 600px;
+    opacity: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.title{
+    margin-top: 300px;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+}
+/*.box{*/
+    /*height: 500px;*/
+    /*width: 100%;*/
+    /*border: 2px solid black;*/
+    /*position: relative;*/
+    /*margin: 10px;*/
+    /*float: left;*/
+/*}*/
+.image-box {
+    position: relative;
+    overflow: hidden;
+}
+.image-box img{
+    height: 200px;
+    width: 100%;
+    transform: scale(1);
+    transition: 1s;
+    cursor: pointer;
+}
+.image-box:hover img{
+    transform: scale(1.5);
+}
+
+.checked {
+    color: orange;
+}
+
+.banner_course{
+    background-image: url("../../images/course_banner.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.banner_section{
+    height: 400px;
+    opacity: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+.fourm{
+    background-image: url("../../images/search-bg.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.forum_section{
+    height: 400px;
+    opacity: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+
+/*sidebar*/
+.nav_user{
+    padding: 15px 20px;
+    display: block;
+    font-size: 120%;
+    border-bottom: 1px dotted #cdcdcd;
+}
+.sidebar__menu{
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+    border-radius: 3px;
+    padding: 0;
+}
+.side_bar_li{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav_user a:hover{
+    color: green;
+    text-decoration: none;
+}
+.succes{
+    background-image: url("../../images/amazon-success-story.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sucess_section{
+    height: 400px;
+    opacity: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+.link_success:hover{
+    color: #F7631B;
+    text-decoration: none;
+}
+.nav_tutor{
+    text-decoration: none;
+}
+/*conatct page*/
+.contact_us_page{
+    background-image: url("../../images/clients.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contact_section{
+    height: 400px;
+    opacity: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+.contact-page{
+    height: auto;
+    background-image: url("../../images/contact-back.jpg");
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.contact-title{
+    border-bottom: 2px dotted white;
+
+}
+.social-symbol2:hover{
+    color: #F62451;
+}
+.social-symbol2{
+    color: white;
+}
+.contact-form{
+    color: white;
+}
+.social-symbol3{
+    color: white;
+}
+.input-contact{
+    height: 40px;
+    border-radius: 10px;
+}
