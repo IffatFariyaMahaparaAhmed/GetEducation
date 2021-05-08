@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 3/29/2021
- * Time: 3:51 PM
- */
+
 
 
     session_start();

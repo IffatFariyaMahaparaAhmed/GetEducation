@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 3/21/2021
- * Time: 10:10 AM
- */
+
     require_once 'php/db_connect.php';
 ?>
 <html lang="en">
@@ -29,12 +24,12 @@
             <div class="col-md-10 mx-auto mt-5 mb-5">
                 <div class="card">
                     <div class="card-header bg-info">
-                        <h3 class="text-center text-white">User Registration</h3>
+                        <h3 class="text-center text-white">Student Registration</h3>
                     </div>
                     <div class="card-body">
                         <h4 class="ml-2">
                             <?php
-                            //new tutor registration
+                            //new student registration
                             if (isset($_POST['btn']))
                             {
                                 $first_name   = $_POST['first_name'];

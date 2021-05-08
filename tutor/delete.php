@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 3/21/2021
- * Time: 11:49 PM
- */
+
+
 
 
     session_start();
@@ -15,6 +11,22 @@
     }
 
     //delete course
+    if (isset($_GET['delete_quiz_qsn_id'])){
+        $quiz_qsn_id = $_GET['delete_quiz_qsn_id'];
+        $qsn_id = $_GET['qsn_id'];
+        $deleteQuery = "DELETE FROM `quiz_qsn` WHERE `quiz_qsn_id` = '$quiz_qsn_id'";
+
+        $result_qsn = mysqli_query($connect, $deleteQuery);
+
+        if ($result_qsn) {
+            $_SESSION['success'] = 'QuiZ Question Deleted Successful';
+            echo "<script>document.location.href='view_qsn.php?qsn=$qsn_id'</script>";
+        } else {
+            $_SESSION['error'] = 'QuiZ Question delete Failed';
+
+            echo "<script>document.location.href='view_qsn.php?qsn=$qsn_id'</script>";
+        }
+    }
     if (isset($_GET['course']))
     {
         $course_id = $_GET['course'];

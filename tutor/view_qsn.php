@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 3/24/2021
- * Time: 10:53 PM
- */
+
 ?>
 
 <?php include "front/header.php"; ?>
@@ -30,6 +25,26 @@
                 <li class="breadcrumb-item active">View Quiz Question</li>
             </ol>
 
+            <?php
+            if(isset($_SESSION['success'])){
+                echo "
+                                    <div class='alert alert-success alert-dismissible'>
+                                        <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
+                                        <h6><i class='icon fa fa-check'></i> Success!</h6>".$_SESSION['success']."
+                                    </div>
+                                    ";
+                unset($_SESSION['success']);
+            }
+            if(isset($_SESSION['error'])){
+                echo "
+                                                <div class='alert alert-danger alert-dismissible' id='error' style='background-color: red; color: white'>
+                                                    <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
+                                                    <span><i class='fas fa-exclamation-triangle'></i></span> ".$_SESSION['error']."
+                                                </div>
+                                                ";
+                unset($_SESSION['error']);
+            }
+            ?>
             <!-- Icon Cards-->
             <div class="row">
                 <div class="col-md-10 mx-auto mt-2 mb-5">
@@ -43,16 +58,18 @@
 
                                 $sql = "SELECT * FROM quiz_qsn WHERE qsn_id = '$id' ";
                                 $result = mysqli_query($connect, $sql);
-
+//                                print_r(mysqli_fetch_assoc($result));
                             }
                             ?>
                         </div>
                         <div class="card-body">
 
                             <div class="ml-4">
+                                <a class="btn btn-warning" href="edit-question.php?quiz=<?php echo $id;?>"> <i class="fa fa-edit"></i> Edit</a>
                                 <?php while ($data = mysqli_fetch_assoc($result)){?>
                                     <div class="form-group">
                                         <label class="font-weight-bold">Question <?php echo $i++;?>: <?php echo $data['qsn'];?> </label>
+                                        <a href="delete.php?delete_quiz_qsn_id=<?php echo $data['quiz_qsn_id']?>&qsn_id=<?php echo $data['qsn_id']?>" class="btn btn-sm btn-danger"><i class="fas fa-times"></i></a>
                                     </div>
                                     <div class="form-group">
                                         A. <input type="radio" name="option" value="<?php echo $data['option_one']?>"> <?php echo $data['option_one']?> <br/>
@@ -63,7 +80,9 @@
                                     <div class="form-group">
                                         <label class="text-success">Correct Answer:   <?php echo $data['ans']?></label>
                                     </div>
+
                                 <?php }?>
+
                             </div>
 
                         </div>

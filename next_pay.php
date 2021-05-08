@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 4/7/2021
- * Time: 4:59 PM
- */
+
 session_start();
 if (!isset($_SESSION['user'])){
     header('Location: ../index.php');

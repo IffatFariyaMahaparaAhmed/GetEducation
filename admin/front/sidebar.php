@@ -40,7 +40,17 @@
             <span> Manage Courses</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+        <a class="dropdown-item" href="add-course.php"><i class="fas fa-plus" style="color: #007bff"></i> Create New Course</a>
             <a class="dropdown-item" href="manage-course.php"><i class="fas fa-edit" style="color: #007bff"></i> Manage Course's </a>
+        </div>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-file-pdf" style="color: #1BBD36;"></i>
+            <span> Manage Course File</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <a class="dropdown-item" href="upload-course-file.php"><i class="fas fa-upload" style="color: #007bff"></i> Upload File</a>
         </div>
     </li>
     <li class="nav-item dropdown">

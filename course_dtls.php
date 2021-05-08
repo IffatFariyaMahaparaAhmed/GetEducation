@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 4/7/2021
- * Time: 2:44 PM
- */
+
 session_start();
 include_once 'php/db_connect.php';
 ?>
@@ -12,9 +7,7 @@ include_once 'php/db_connect.php';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>GetEducation</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -77,7 +70,8 @@ include_once 'php/db_connect.php';
                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="card-body" style="background-color: honeydew">
                                 <p class="text-justify">
-                                    <?php echo $course['course_description'];?>
+                                    <?php echo $course['course_description'];?> 
+                                    <?php //html_entity_decode($course['course_description']);?> 
                                 </p>
                             </div>
                         </div>

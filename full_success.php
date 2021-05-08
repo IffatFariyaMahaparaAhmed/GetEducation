@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 4/7/2021
- * Time: 9:15 PM
- */
+
 session_start();
 
 require_once 'php/db_connect.php';

@@ -15,12 +15,12 @@
 
 			======================== for Tutor==========================
 
-					Email: m@gmail.com
-					pass: 123
+					Email: teacher1@gmail.com
+					pass: 1234
 
 
 			======================== for Users/ Studnet==========================
 
-					Email: mehedi@gmail.com
-					pass: mehedi
+					Email: student1@gmail.com
+					pass: 1234
  

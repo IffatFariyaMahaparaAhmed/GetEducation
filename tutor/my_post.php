@@ -85,6 +85,7 @@
                                                         echo "<button class='btn btn-success'>Approved</button>";
                                                     }
                                                     ?>
+                                                    <a class='btn btn-warning' href='fourm.php?forum=<?php echo $row['forum_id'] ?>'><i class='fa fa-edit'></i> Edit</a>
                                                 </td>
                                             </tr>
                                     <?php }?>

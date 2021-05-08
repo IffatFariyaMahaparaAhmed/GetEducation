@@ -1,17 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 2/5/2021
- * Time: 10:22 AM
- */
+
 
 require_once '../php/db_connect.php';
 
 if (isset($_GET['status'])){
     $status1 = $_GET['status']; // decleare variable
 
-    $sql = "SELECT * FROM quiz_sub WHERE quiz_id='$status1'"; // select all students
+    $sql = "SELECT * FROM quiz_sub WHERE quiz_id='$status1'"; // select all quiz
 
     $result = mysqli_query($connect, $sql);
 

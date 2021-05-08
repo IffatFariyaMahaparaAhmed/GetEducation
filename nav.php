@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 4/6/2021
- * Time: 10:57 PM
- */
-?>
+
 <div class="container">
     <a class="navbar-brand font-weight-bold" href="#" style="font-size: 30px"><span style="color: white">Get</span><span style="color: red">Education</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

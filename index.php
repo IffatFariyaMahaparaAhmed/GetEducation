@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 4/4/2021
- * Time: 11:07 PM
- */
+
 
     session_start();
     include_once 'php/db_connect.php';
@@ -191,7 +186,8 @@
                     <?php
                         $get_tutor = $connect->query("SELECT * FROM users WHERE  role = 'tutor' AND approve = '0' LIMIT 6");
 
-                    while ($tutor = mysqli_fetch_assoc($get_tutor)){?>
+                  
+                  while ($tutor = mysqli_fetch_assoc($get_tutor)){?>
 
                         <div class="col-md-3 col-sm-12 float-left mt-3 mb-5">
                             <div class="card box">

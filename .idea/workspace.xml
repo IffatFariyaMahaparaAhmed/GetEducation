@@ -1,17 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bedd4a1-bc33-475a-896c-8e0b033f32b9" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="4bedd4a1-bc33-475a-896c-8e0b033f32b9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/add-course.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/add_query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/manage-course-file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/manage-video.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/update_query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/upload-course-file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor/edit-question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutor/edit_quiz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Read Me.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/approve.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/approve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/enroll_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/enroll_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/enroll_student_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/enroll_student_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/forum_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/forum_status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/fourm_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/fourm_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/front/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/front/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/full_fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/full_fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage-course.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_msg.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_msg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/manage_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/singel_course.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/singel_course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/story_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/story_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/student_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/student_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/student_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/student_status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/tutor_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tutor_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/user_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/user_status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_description.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bkas.php" beforeDir="false" afterPath="$PROJECT_DIR$/bkas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.php" beforeDir="false" afterPath="$PROJECT_DIR$/code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course.php" beforeDir="false" afterPath="$PROJECT_DIR$/course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_dtls.php" beforeDir="false" afterPath="$PROJECT_DIR$/course_dtls.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enroll_course.php" beforeDir="false" afterPath="$PROJECT_DIR$/enroll_course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/full_fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/full_fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/full_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/full_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/full_success.php" beforeDir="false" afterPath="$PROJECT_DIR$/full_success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next_pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/next_pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/successful.php" beforeDir="false" afterPath="$PROJECT_DIR$/successful.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/trainer_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/add-course.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/add-course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/add_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/add_query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/add_qustion.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/add_qustion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/change_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/change_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/delete_fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/delete_fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/full_fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/full_fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/like_unlike.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/like_unlike.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/like_unlike2.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/like_unlike2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/manage-course.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/manage-course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/my_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/my_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/quiz_status.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/quiz_status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/update_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/update_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/update_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/update_query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/upload-file.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/upload-file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/upload-video.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/upload-video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor/view_qsn.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor/view_qsn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutor_reg.php" beforeDir="false" afterPath="$PROJECT_DIR$/tutor_reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/change_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/change_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/correct_ans.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/correct_ans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/delete_fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/delete_fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/enroll_course.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/enroll_course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/exam.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/exam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/fourm.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/fourm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/like_unlike.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/like_unlike.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/like_unlike2.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/like_unlike2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/my_course.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/my_course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/my_enroll_course.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/my_enroll_course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/post_success.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/post_success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/result.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/start_exam.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/start_exam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/update_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/update_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/update_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/update_query.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FileEditorManager">
-    <leaf />
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,6 +114,9 @@
     <findStrings>
       <find>tabpanel</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,12 +181,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
+  </component>
+  <component name="ProjectId" id="1sDlxmDrL8ln1xT4hvwtgn36bSF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -128,104 +224,40 @@
       <pane id="Scratches" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GetEducation\admin" />
       <recent name="C:\xampp\htdocs\work\GetEducation\user" />
       <recent name="C:\xampp\htdocs\work\GetEducation\images" />
       <recent name="C:\xampp\htdocs\work\e_learn_system\user" />
       <recent name="C:\xampp\htdocs\work\e_learn_system\images" />
-      <recent name="C:\xampp\htdocs\work\e_learn_system" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4bedd4a1-bc33-475a-896c-8e0b033f32b9" name="Default" comment="" />
@@ -250,6 +282,8 @@
       <workItem from="1618034727925" duration="20000" />
       <workItem from="1618050773091" duration="5648000" />
       <workItem from="1618064980471" duration="37000" />
+      <workItem from="1620415307532" duration="389000" />
+      <workItem from="1620415731516" duration="14330000" />
     </task>
     <servers />
   </component>
@@ -279,14 +313,21 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/amazon-success-story.jpg">

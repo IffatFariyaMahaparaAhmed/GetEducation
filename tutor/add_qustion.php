@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 3/24/2021
- * Time: 9:00 PM
- */
+
 ?>
 
 <?php include "front/header.php"; ?>
